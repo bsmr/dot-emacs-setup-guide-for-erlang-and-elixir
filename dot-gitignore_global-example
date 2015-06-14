@@ -1,0 +1,15 @@
+# ~/.gitignore_global
+
+# editor files
+*~
+.*.swp
+.~lock.*.od*#
+core
+.idea/
+.projectile
+
+# erlang related
+*.beam
+erl_crash.dump
+
+# elixir related

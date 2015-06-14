@@ -1,0 +1,9 @@
+# ~/.gitconfig
+
+[user]
+        name = Firstname Lastname
+        email = emailname@example.com
+[color]
+	ui = auto
+[core]
+	excludesfile = ~/.gitignore_global
