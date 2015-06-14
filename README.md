@@ -15,6 +15,11 @@ The only prerequisites are that the following components are installed on Your s
 [Elixir]: http://elixir-lang.org/
 [Spacemacs]: https://twitter.com/spacemacs
 
+## Note
+
+This _setup guide_ is currently developped and tested only on a Ubuntu 14.04 64 bit system.
+It has to be tested and verified on other systems as well!!!
+
 ## Features
 
 * basic things
@@ -110,3 +115,8 @@ There are just some example patterns.
 
 Careful with the patterns used... Just don't forget about the `.gitignore_global` file.
 
+
+
+## Compatibility
+
+* Ubuntu 14.04, but it should run on 12.x and more recent systems as well
