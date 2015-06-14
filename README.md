@@ -44,7 +44,7 @@ The only prerequisites are that the following components are installed on Your s
 
 Before You clone this repository, You should check Your environment:
 
-* Can You start Elang's shell `erl`?
+* Can You start Erlang's shell `erl`?
   *Hint:* To terminate `erl` enter `q().` followed by `RETURN`.
 * Can You start Elixir's shell `iex`?
   *Hint:* To terminate `iex` enter `CTRL+c` followed by 'a'.
@@ -58,7 +58,7 @@ Before You clone this repository, You should check Your environment:
 There are three example files:
 
 * `dot-emacs-example`: an emacs configuration file `.emacs`
-* `dot-gitconfig-example`: a git configuration file `.git`
+* `dot-gitconfig-example`: a git configuration file `.gitconfig`
 * `dot-gitignore_global-example`: an additional file for git with default excludes `.gitignore_global`
 
 *TBD:* There are files in an _unixish_ environment, like Linux, Ubuntu, and should be the same for Mac OS X.
@@ -66,5 +66,47 @@ There are three example files:
 
 ## Getting started...
 
-*TBD*
+### Check You personal git configuration (optional)
+
+This is an optional step, but You should really do this.
+If You don't use git, but another source control management system, check with it manuals for similar steps.
+
+#### Username and E-Mail
+
+Check if Your Name and E-Mail address is correct.
+This is information is located in Your `.gitconfig` file:
+
+```
+[user]
+        name = Firstname Lastname
+        email = emailname@example.com
+```
+
+#### _Global Exclude Patterns_
+
+Having global exclude patterns, so You don't have to include them in every project as well, is a two part process:
+
+First check You `.gitconfig` file:
+
+```
+[core]
+        excludesfile = ~/.gitignore_global
+```
+
+And afterwards have a look at `.gitignore_global`:
+
+```
+# editor files
+*~
+.*.swp
+.~lock.*.od*#
+core
+# erlang related
+*.beam
+erl_crash.dump
+```
+
+There are just some example patterns.
+
+Careful with the patterns used... Just don't forget about the `.gitignore_global` file.
 
