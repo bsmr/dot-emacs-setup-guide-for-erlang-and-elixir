@@ -53,5 +53,18 @@ Before You clone this repository, You should check Your environment:
 * Do You know where Your `.emacs` file is?
 * Do You know where Your `.gitconfig` file is?
 
+## Files include
+
+There are three example files:
+
+* `dot-emacs-example`: an emacs configuration file `.emacs`
+* `dot-gitconfig-example`: a git configuration file `.git`
+* `dot-gitignore_global-example`: an additional file for git with default excludes `.gitignore_global`
+
+*TBD:* There are files in an _unixish_ environment, like Linux, Ubuntu, and should be the same for Mac OS X.
+       Are they also valid for Windows systems?
+
 ## Getting started...
+
+*TBD*
 
